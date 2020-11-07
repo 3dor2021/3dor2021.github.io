@@ -1,8 +1,8 @@
 :root {
     --primary-red:#d3374a;
     --primary-grey:#d3d3d2;
-    --primary-black:#22211f;
-    --primary-white:#ffffff;
+    --primary-dark:#22211f;
+    --primary-light:#ffffff;
 }
 
 .top-bar, .top-bar ul {
@@ -16,4 +16,12 @@
 .menu .highlight > a {
   border-style: solid;
   border-color: var(--primary-red);
+}
+
+a {
+	color: var(--primary-dark);
+}
+
+a:hover, a:focus {
+    color: var(--primary-grey);
 }
