@@ -1,3 +1,10 @@
+:root {
+    --primary-red:#d3374a;
+    --primary-grey:#d3d3d2;
+    --primary-black:#22211f;
+    --primary-white:#ffffff;
+}
+
 .top-bar, .top-bar ul {
 	background-color: #e9e9e9; /*#e6e6e6*/
 }
@@ -7,5 +14,5 @@
 }
 
 .menu .active > a {
-  background: #d0d0cf;
+  outline: 5px var(--primary-red);
 }
