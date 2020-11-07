@@ -14,5 +14,6 @@
 }
 
 .menu .highlight > a {
-  outline: 5px var(--primary-red);
+  border-style: solid;
+  border-color: var(--primary-red);
 }
