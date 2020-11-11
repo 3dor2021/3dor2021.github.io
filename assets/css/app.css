@@ -14,8 +14,9 @@
 }
 
 .menu .highlight > a {
-  border-style: solid;
-  border-color: var(--primary-red);
+  /*border-style: solid;
+  border-color: var(--primary-red);*/
+  background-color: var(--primary-red);
 }
 
 a {
