@@ -34,5 +34,4 @@ a {
 
 .menu a:hover, a:focus {
   background-color: var(--greyscale-2);
-  color: var(--primary-grey);
 }
