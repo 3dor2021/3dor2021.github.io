@@ -3,14 +3,26 @@
     --primary-grey:#d3d3d2;
     --primary-dark:#22211f;
     --primary-light:#ffffff;
+    --greyscale-1:#e9e9e9;
+    --greyscale-2:#d0d0cf;
+    --greyscale-3:#bcbbbb;
+    --greyscale-4:#91908f;
+    --greyscale-5:#7a7978;
+    --greyscale-6:#666564;
+    --greyscale-7:#373736;
+    --greyscale-8:#22211f;
 }
 
 .top-bar, .top-bar ul {
-	background-color: #e9e9e9; /*#e6e6e6*/
+	background-color: var(--greyscale-1); /*#e6e6e6*/
 }
 
 .title-bar {
-	background: #e9e9e9; /*0a0a0a*/
+	background: var(--greyscale-1); /*0a0a0a*/
+}
+
+.menu > a {
+  background-color: var(--greyscale-2);
 }
 
 .menu .highlight > a {
@@ -25,5 +37,6 @@ a {
 }
 
 a:hover, a:focus {
-    color: var(--primary-grey);
+  background-color: var(--primary-red);
+  color: var(--primary-grey);
 }
