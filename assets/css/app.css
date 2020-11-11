@@ -1,5 +1,6 @@
 :root {
     --primary-red:#d3374a;
+    --secondary-dark-red:#a92c3b;
     --primary-grey:#d3d3d2;
     --primary-dark:#22211f;
     --primary-light:#ffffff;
@@ -26,6 +27,9 @@
   border-color: var(--primary-red);*/
   background-color: var(--primary-red);
   color: var(--primary-light);
+}
+.menu .highlight > a:hover, a:focus {
+  background-color: var(--secondary-dark-red);
 }
 
 a {
