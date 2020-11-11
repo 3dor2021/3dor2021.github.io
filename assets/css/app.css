@@ -23,6 +23,10 @@
   color: var(--primary-dark);
 }
 
+.menu-icon {
+  background-color: var(--primary-dark); /*#e6e6e6*/
+}
+
 .menu .highlight > a {
   /*border-style: solid;
   border-color: var(--primary-red);*/
