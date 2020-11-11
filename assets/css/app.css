@@ -23,8 +23,15 @@
   color: var(--primary-dark);
 }
 
-.menu-icon {
-  background-color: var(--primary-dark); /*#e6e6e6*/
+.menu-icon::after {
+  background: var(--primary-dark);
+  box-shadow: 0 7px 0 var(--primary-dark), 0 14px 0 var(--primary-dark);
+  -webkit-box-shadow: 0 7px 0 var(--primary-dark), 0 14px 0 var(--primary-dark);
+}
+.menu-icon::after:hover {
+  background: var(--primary-dark);
+  box-shadow: 0 7px 0 var(--primary-dark), 0 14px 0 var(--primary-dark);
+  -webkit-box-shadow: 0 7px 0 var(--primary-dark), 0 14px 0 var(--primary-dark);
 }
 
 .menu .highlight > a {
