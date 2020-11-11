@@ -28,7 +28,8 @@
   box-shadow: 0 7px 0 var(--primary-dark), 0 14px 0 var(--primary-dark);
   -webkit-box-shadow: 0 7px 0 var(--primary-dark), 0 14px 0 var(--primary-dark);
 }
-.menu-icon::after:hover {
+
+.menu-icon:hover::after {
   background: var(--primary-dark);
   box-shadow: 0 7px 0 var(--primary-dark), 0 14px 0 var(--primary-dark);
   -webkit-box-shadow: 0 7px 0 var(--primary-dark), 0 14px 0 var(--primary-dark);
