@@ -17,6 +17,7 @@
   /*border-style: solid;
   border-color: var(--primary-red);*/
   background-color: var(--primary-red);
+  color: var(--primary-light);
 }
 
 a {
