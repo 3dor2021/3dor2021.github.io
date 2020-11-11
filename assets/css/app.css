@@ -21,10 +21,6 @@
 	background: var(--greyscale-1); /*0a0a0a*/
 }
 
-.menu > a {
-  background-color: var(--greyscale-2);
-}
-
 .menu .highlight > a {
   /*border-style: solid;
   border-color: var(--primary-red);*/
@@ -36,7 +32,7 @@ a {
 	color: var(--primary-dark);
 }
 
-a:hover, a:focus {
-  background-color: var(--primary-red);
+.menu > a:hover, .menu > a:focus {
+  background: var(--greyscale-2);
   color: var(--primary-grey);
 }
