@@ -34,10 +34,20 @@
   box-shadow: 0 7px 0 var(--primary-dark), 0 14px 0 var(--primary-dark);
   -webkit-box-shadow: 0 7px 0 var(--primary-dark), 0 14px 0 var(--primary-dark);
 }
+.button, .button.disabled, .button[disabled], .button.disabled:hover, .button[disabled]:hover, .button.disabled:focus, .button[disabled]:focus {
+    background-color: var(--primary-red);
+    color: var(--primary-light);
+}
+.button:hover, .button:focus {
+    background-color: var(--secondary-dark-red);
+    color: var(--primary-light);
+}
+.button.hollow, .button.hollow.disabled, .button.hollow[disabled], .button.hollow.disabled:hover, .button.hollow[disabled]:hover, .button.hollow.disabled:focus, .button.hollow[disabled]:focus {
+    border: 1px solid var(--primary-red);
+    color: var(--primary-red);
+}
 
 .menu .highlight > a {
-  /*border-style: solid;
-  border-color: var(--primary-red);*/
   background-color: var(--primary-red);
   color: var(--primary-light);
 }
