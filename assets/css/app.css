@@ -58,7 +58,16 @@
 }
 
 a {
+  color: var(--primary-red);
+}
+
+a:hover, a:focus {
+  color: var(--secondary-dark-red);;
+}
+
+.menu a {
 	color: var(--primary-dark);
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
 }
 
 .menu a:hover, a:focus {
