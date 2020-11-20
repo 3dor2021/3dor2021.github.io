@@ -35,16 +35,21 @@
   -webkit-box-shadow: 0 7px 0 var(--primary-dark), 0 14px 0 var(--primary-dark);
 }
 .button, .button.disabled, .button[disabled], .button.disabled:hover, .button[disabled]:hover, .button.disabled:focus, .button[disabled]:focus {
-    background-color: var(--primary-red);
-    color: var(--primary-light);
+  background-color: var(--primary-red);
+  color: var(--primary-light);
 }
 .button:hover, .button:focus {
     background-color: var(--secondary-dark-red);
     color: var(--primary-light);
 }
 .button.hollow, .button.hollow.disabled, .button.hollow[disabled], .button.hollow.disabled:hover, .button.hollow[disabled]:hover, .button.hollow.disabled:focus, .button.hollow[disabled]:focus {
-    border: 1px solid var(--primary-red);
-    color: var(--primary-red);
+  border: 1px solid var(--primary-red);
+  color: var(--primary-red);
+}
+
+.button.hollow:hover, .button.hollow:focus {
+  border-color: var(--secondary-dark-red);
+  color: var(--secondary-dark-red);
 }
 
 .menu .highlight > a {
