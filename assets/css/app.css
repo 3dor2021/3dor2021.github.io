@@ -79,3 +79,45 @@ a:hover, a:focus {
   background-color: var(--greyscale-2);
   color: var(--primary-dark);
 }
+
+/* Home banner image */
+.bgimg {
+  width: 150%;
+  max-width: 150%;
+}
+
+.trim-bgimg {
+  position: absolute;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+@media print, screen and (min-width: 40em) { /* Medium device */
+  .bgimg {
+    width: 120%;
+    max-width: 120%;
+  }
+}
+
+@media print, screen and (min-width: 64em) { /* Large device */
+  .bgimg {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media print, screen and (min-width: 110em) { /* Max device */
+  .bgimg {
+    display: block;
+    width: 74rem;
+    max-width: 74rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .trim-bgimg {
+    width: 100%;
+    max-width: 100%;
+  }
+}
