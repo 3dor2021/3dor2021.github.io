@@ -99,12 +99,19 @@ a:hover, a:focus {
     width: 120%;
     max-width: 120%;
   }
+
+  #banner {
+    padding-top: 9rem;
+  }
 }
 
 @media print, screen and (min-width: 64em) { /* Large device */
   .bgimg {
     width: 100%;
     max-width: 100%;
+  }
+  #banner {
+    padding-top: 11rem;
   }
 }
 
