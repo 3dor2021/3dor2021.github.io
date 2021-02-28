@@ -39,8 +39,8 @@
   color: var(--primary-light);
 }
 .button:hover, .button:focus {
-    background-color: var(--secondary-dark-red);
-    color: var(--primary-light);
+  background-color: var(--secondary-dark-red);
+  color: var(--primary-light);
 }
 .button.hollow, .button.hollow.disabled, .button.hollow[disabled], .button.hollow.disabled:hover, .button.hollow[disabled]:hover, .button.hollow.disabled:focus, .button.hollow[disabled]:focus {
   border: 1px solid var(--primary-red);
@@ -78,6 +78,14 @@ a:hover, a:focus {
 .menu a:hover, a:focus {
   background-color: var(--greyscale-2);
   color: var(--primary-dark);
+}
+
+.dropdown.menu.vertical > li.opens-left > a::after {
+  left: auto;
+  right: 5px;
+}
+.dropdown.menu.vertical > li > a::after {
+  right: 5px;
 }
 
 /* Home banner image */

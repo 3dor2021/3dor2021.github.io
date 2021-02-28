@@ -4,6 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>3DOR 2021 | The 14th 3D Object Retreival workshop</title>
+    <meta name="description" content="The 3D Object Retreival (3DOR) workshop is a geometry processing workshop series for methods, applications and benchmark-based evaluation of 3D object retrieval, classification, and similarity-based object processing.">
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:title" content="3DOR'21 | The 14th 3D Object Retreival workshop" />
+    <meta property="og:description" content="The 3D Object Retreival (3DOR) workshop series is for methods, applications and benchmark-based evaluation of 3D object retrieval, classification, and similarity-based object processing." />
+    <meta property="og:url" content="https://3dor2021.github.io/" />
+    <meta property="og:image" content="https://3dor2021.github.io/assets/img/3DOR_opengraph.jpg" />
+    <meta property="og:type" content="website" />
+    <link rel=“canonical” href=“https://3dor2021.github.io/” />
     <link rel="stylesheet" href="assets/css/foundation.css">
     <link rel="stylesheet" href="assets/css/foundation-prototype.css">
     <link href='assets/css/foundation-icons.css' rel='stylesheet' type='text/css'>
@@ -32,10 +40,20 @@
         </ul>
       </div>
       <div class="top-bar-right">
-        <ul class="menu vertical medium-horizontal">
+        <ul class="dropdown menu vertical medium-horizontal" data-dropdown-menu>
         	<li><a href="./index.html">Home</a></li>
-          <li><a href="./dates.html">Important dates</a></li>
-          <li><a href="./cfp.html">Call for papers</a></li>
+          <li><a href="#">For Attendees</a>
+          <ul class="menu vertical">
+            <li><a href="./keynotes.html">Event Keynote</a></li>
+          </ul>
+          </li>
+          <li><a href="#">For Authors</a>
+          <ul class="menu vertical">
+            <li><a href="./dates.html">Important dates</a></li>
+            <li><a href="./cfp.html">Call for papers</a></li>
+            <li><a href="./submission.html">Submission instructions</a></li>
+          </ul>
+          </li>
           <li><a href="http://www.shrec.net">SHREC 2021</a></li>
           <li><a href="./organisers.html">Organisers</a></li>
           <li><a href="./contacts.html">Contact us</a></li>
@@ -51,18 +69,82 @@
       <div class="row column text-center">
         <h1>3D Object Retrieval 2021 (3DOR'21)</h1>
         <!--<p class="lead"><i>December 29th, 2020</i> deadline for SHREC track proposals</p>-->
-        <p class="lead"><i>March 15th, 2021</i> Submission for full track and full workshop papers for review.</p>
+        <p class="lead">This year, 3DOR'21 will be convened <i>online</i> on <i>September 2nd and 3rd, 2021</i>.</p>
         <!--<a href="https://forms.gle/RXBFT6sME8NfCoL36" class="button large">Register</a>-->
-        <a href="./cfp.html" class="button large">Call for papers</a>
-        <a href="./dates.html" class="button large hollow" style="background:#fff">See schedule</a>
+        <a href="./dates.html" class="button large">See schedule</a>
+        <a href="./submission.html" class="button large hollow" style="background:#fff">Submission instructions</a>
+        <p>The submission deadline for full track and full workshop papers for review is <i>March 15th, 2021</i>.</p>
       </div>
     </div>
 
+    <div class="grid-container">
+      <div class="grid-x grid-margin-x">
+        <div class="medium-10 medium-offset-1 cell">
+          <h2>Keynote speakers</h2>
+          <p>We are delighted to announce that Prof. Thomas A. Funkhouser and Prof. Alexander M. Bronstein will be giving this year's keynote talks!</p>
+        </div>
+      </div>
+
+      <div class="large-10 large-centered columns">
+        <!--<div class="grid-x grid-margin-x small-up-2 medium-up-3 medium-8 medium-offset-3">-->
+        <div class="grid-x grid-margin-x small-up-2 medium-up-3 medium-8 medium-offset-3 large-up-3 large-8 large-offset-3">
+          <div class="cell">
+            <div class="card">
+              <img src="assets/img/thomas_funkhouser2_square.jpg">
+              <div class="card-section">
+              <h4>Thomas A. Funkhouser</h4>
+              <p>See bio <a href="./keynotes.html#thomas_funkhouser">here</a>.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cell">
+            <div class="card">
+              <img src="assets/img/alex_bronstein_square.jpg">
+              <div class="card-section">
+              <h4>Alexander M. Bronstein</h4>
+              <p>See bio <a href="./keynotes.html#alex_bronstein">here</a>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--
+      <div class="grid-x grid-margin-x">
+        <div class="medium-10 medium-offset-1 cell">
+          <h2>Keynote speakers</h2>
+        </div>
+      </div>
+      
+      <div class="grid-x grid-margin-x small-up-2 medium-up-3 medium-10 medium-offset-1">
+        <div class="cell">
+          <div class="card">
+            <img src="assets/img/alex_bronstein.jpg">
+            <div class="card-section">
+            <h4>This is a row of cards.</h4>
+              <p>This row of cards is embedded in an X-Y Block Grid.</p>
+            </div>
+          </div>
+        </div>
+        <div class="cell">
+          <div class="card">
+            <img src="assets/img/alex_bronstein.jpg">
+            <div class="card-section">
+              <h4>This is a card.</h4>
+              <p>It has an easy to override visual style, and is appropriately subdued.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    -->
+    </div>
+
     <article class="grid-container">
+      <hr>
       <div class="grid-x grid-margin-x">
         <div class="medium-10 medium-offset-1 cell">
           <h2>About 3DOR</h2>
-          <p>3DOR is the dedicated workshop series for methods, applications and benchmark-based evaluation of 3D object retrieval, classification, and similarity-based object processing. The workshop also includes the 2021 edition of the 3D Shape Retrieval Challenge (SHREC), keynotes, project presentations, and a social and networking event. Accepted full papers will be published in <a href="https://www.journals.elsevier.com/computers-and-graphics">Computers &amp; Graphics Journal</a> (Elsevier).</p>
+          <p>3DOR is the dedicated workshop series for methods, applications and benchmark-based evaluation of 3D object retrieval, classification, and similarity-based object processing. The workshop also includes the 2021 edition of the 3D Shape Retrieval Challenge (SHREC), keynotes, project presentations, and a social and networking event. Accepted full papers will be published in <a href="https://www.journals.elsevier.com/computers-and-graphics" target="_blank">Computers &amp; Graphics Journal</a> (Elsevier).</p>
         </div>
       </div>
       <hr>
@@ -78,15 +160,7 @@
       <div class="grid-x grid-margin-x">
         <div class="medium-10 medium-offset-1 cell">
           <h3>Graphics Replicability Stamp Initiative</h3>
-          <p>Additionally, authors are encouraged to submit their code and data to obtain a replicability stamp. For information see <a href="http://www.replicabilitystamp.org/">here</a>.</p>
-        </div>
-      </div>
-      <hr>
-      
-      <div class="grid-x grid-margin-x">
-        <div class="medium-10 medium-offset-1 cell">
-          <h3>Workshop venue</h3>
-          <p>This year, 3DOR'21 will be convened online.</p>
+          <p>Additionally, authors are encouraged to submit their code and data to obtain a replicability stamp. For information see <a href="http://www.replicabilitystamp.org/" target="_blank">here</a>.</p>
         </div>
       </div>
       <hr>

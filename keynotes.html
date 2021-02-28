@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3DOR 2021 | The 14th 3D Object Retreival workshop</title>
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <link rel="stylesheet" href="assets/css/foundation-prototype.css">
+    <link href='assets/css/foundation-icons.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="icon" href="assets/img/3DOR_logo_favicon.png" sizes="192x192" />
+  </head>
+  <body>
+    
+    <!-- Navigation bar -->
+    <div class="title-bar" data-responsive-toggle="mainNavigation" data-hide-for="medium">
+      <div class="title-bar-left">
+        <button class="menu-icon" type="button" data-toggle="mainNavigation"></button>
+        <div class="title-bar-title">Menu</div>
+      </div>
+      <div class="title-bar-right">
+        <img src="assets/img/3DOR_logo.svg" alt="3DOR logo" height="75" width="75" />
+      </div>
+    </div>
+    
+    <div class="top-bar" id="mainNavigation">
+      <div class="top-bar-left">
+        <ul class="menu vertical medium-horizontal">
+          <li class="menu-text hide-for-small-only">
+            <img src="assets/img/3DOR_logo.svg" alt="3DOR logo" height="75" width="75" /> <!-- 3DOR 2021 Workshop -->
+          </li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="dropdown menu vertical medium-horizontal" data-dropdown-menu>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#">For Attendees</a>
+          <ul class="menu vertical">
+            <li><a href="./keynotes.html">Event Keynote</a></li>
+          </ul>
+          </li>
+          <li><a href="#">For Authors</a>
+          <ul class="menu vertical">
+            <li><a href="./dates.html">Important dates</a></li>
+            <li><a href="./cfp.html">Call for papers</a></li>
+            <li><a href="./submission.html">Submission instructions</a></li>
+          </ul>
+          </li>
+          <li><a href="http://www.shrec.net">SHREC 2021</a></li>
+          <li><a href="./organisers.html">Organisers</a></li>
+          <li><a href="./contacts.html">Contact us</a></li>
+          <li class="highlight"><a href="https://forms.gle/RXBFT6sME8NfCoL36">Register</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <article class="grid-container">
+      <!--
+      <div class="grid-x grid-margin-x">
+        <div class="medium-10 medium-offset-1 cell">
+          <h2>Event Kenote</h2>
+          <p>We are delighted to announce that Prof. Alexander Bronstein will be giving this year's keynote!</p>
+          <p>Alex has a long history with 3DOR, with many notable contributions to the workshop, as well as the wider visual computing community. He has been an active member of the research community for over 20 years, and has received numerous honours and accolades for his work. Alex currently heads the Vision Theory and Applications (VISTA) Laboratory at the Technion - Israel Institute of Technology. Beyond his academic accomplishments, Alex has co-founded three successful start-ups. He currently works as a principal engineer at Intel developing the RealSense technology and continues his role as chief scientist at VideoCity.</p>
+          <p>His academic interests span a wide range of topics within visual computing, with many published works spanning the topics of numerical geometry, computer vision, and machine learning.</p>
+          
+        </div>
+      </div>
+      -->
+      <div class="grid-x grid-margin-x">
+        <div class="medium-10 medium-offset-1 cell">
+          <h2>Kenote Speakers</h2>
+        </div>
+      </div>
+
+      <div class="media-object medium-offset-1 stack-for-small">
+        <div class="media-object-section">
+          <div class="thumbnail">
+            <img src= "assets/img/thomas_funkhouser2.jpg">
+          </div>
+        </div>
+        <div class="media-object-section">
+          <a id="thomas_funkhouser"></a>
+          <h3>Thomas A. Funkhouser</h3>
+          <p> Thomas is the David M. Siegel Professor of Computer Science at Princeton University, transferring to emiritus status in 2019. He is also a senior researcher at Google Research. Thomas has been at the forefront of research of many sub-fields within geometry processing, contributing greatly to the naissance of shape retrieval. Relevantly to this workshop, Thomas has also helped produce many valuable benchmarking datasets for researchers. With over 150 publications to date, Thomas' contributions to research have been recognised by the community with his recent indcution into the ACM SIGGRAPH Academy in 2018. Thomas was also elected to become an ACM fellow in that same year.</p>
+
+          <p> Recently, Thomas' research interests have included scene understanding, scene reconstruction, robotics, implicit 3D shape representation, human pose prediction, and shape modelling.</p>
+
+          <!--He has been at the forefront of research within geometry processing in many now-prominent sub-fields. The naissance of generalised shape retreival can be attributed to Thomas and his collaborators. Through multi-disciplinary activities, Thomas has contributed valuable algorithms with real applications. Furthermore, Thomas has helped produce many valuable benchmarking datasets for the community.-->
+        </div>
+      </div>
+
+      <div class="media-object medium-offset-1 stack-for-small">
+        <div class="media-object-section">
+          <div class="thumbnail">
+            <img src= "assets/img/alex_bronstein.jpg">
+          </div>
+        </div>
+        <div class="media-object-section">
+          <a id="alex_bronstein"></a>
+          <h3>Alexander M. Bronstein</h3>
+          <p>Alex has a long history with 3DOR. With many notable contributions to the workshop, as well as the wider visual computing community. He has been an active member of the research community for over 20 years and has received numerous honours and accolades for his work. Alex currently heads the <a href="https://vista.cs.technion.ac.il/" target="_blank">Vision Theory and Applications (VISTA) Laboratory</a> at the Technion&mdash;Israel Institute of Technology. He is a member of ACM and SIAM, and was elected an IEEE fellow in 2018. Beyond his academic accomplishments, Alex has co-founded three successful start-ups. He currently works as a principal engineer at Intel developing the RealSense technology and continues his role as chief scientist at VideoCity.</p>
+          <p>Alex's academic interests span a wide range of topics within visual computing, with many relevant published works in the areas of numerical geometry, computer vision, and machine learning.</p>
+        </div>
+      </div>
+
+    </article>
+
+  <!-- footer scripts -->
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="assets/js/foundation.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+  </body>
+</html>
