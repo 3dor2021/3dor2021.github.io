@@ -94,6 +94,11 @@ footer {
   margin-top: 1.5em;
 }
 
+.label {
+  background-color: var(--primary-red);
+  color: var(--primary-light);
+}
+
 /* Home banner image */
 .bgimg {
   width: 150%;
