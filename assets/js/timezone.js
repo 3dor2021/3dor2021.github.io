@@ -25,7 +25,7 @@ function timeOffset() {
 
 		for (let i=0; i<timeElements.length; ++i) {
 			var text = timeElements[i].innerHTML;
-			var host_date = new Date("2021-09-"+day_date+" "+text+":00 GMT+01");
+			var host_date = new Date("2021/09/"+day_date+" "+text+":00 GMT+01");
 
 			var [day, month, year] = [host_date.getDate(), host_date.getMonth(), host_date.getFullYear()];
 			var [hour, minutes, seconds] = [host_date.getHours(), host_date.getMinutes(), host_date.getSeconds()];
