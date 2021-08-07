@@ -4,7 +4,8 @@
 
 /*var countDownDate = new Date("Apr 2, 2021 00:00:00 UTC-12:00").getTime();  1 minute past 23:59:59 on 01/04/2021 https://time.is/Anywhere_on_Earth */
 /*var countDownDate = new Date("May 29, 2021 00:00:00 UTC-12:00").getTime();  1 minute past 23:59:59 on 28/05/2021 https://time.is/Anywhere_on_Earth */
-var countDownDate = new Date("Jul 10, 2021 23:59:00 UTC+00:00").getTime(); /* 23:59:00 on 10/07/2021 (UTC) */
+/*var countDownDate = new Date("Jul 10, 2021 23:59:00 UTC+00:00").getTime(); 23:59:00 on 10/07/2021 (UTC) */
+var countDownDate = new Date("Sep 2, 2021 13:00:00 UTC+01:00").getTime(); /* 13:00:00 on 02/09/2021 (UTC) */
 
 function countdownTimer() {
   var now = new Date().getTime();
