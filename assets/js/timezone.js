@@ -11,8 +11,7 @@ function nth(d) {
 
 function timeOffset() {
 	/* Use machine time to offset event timings */
-	const months = ["January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December"];
+	const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 	var days = {1:"#day-1",2:"#day-2"};
 
@@ -24,13 +23,13 @@ function timeOffset() {
 		var timeElements = document.querySelectorAll(day_id + ' #event-time');
 
 		for (let i=0; i<timeElements.length; ++i) {
-			var text = timeElements[i].innerHTML;
+			var text = timeElements[i].innerHTML; // e.g. "13:00"
 			var host_date = new Date("2021/09/"+day_date+" "+text+":00 GMT+01");
 
-			var [day, month, year] = [host_date.getDate(), host_date.getMonth(), host_date.getFullYear()];
-			var [hour, minutes, seconds] = [host_date.getHours(), host_date.getMinutes(), host_date.getSeconds()];
+			var [day, month, year, hour, minutes] = [host_date.getDate(), host_date.getMonth(), host_date.getFullYear(), host_date.getHours(), host_date.getMinutes()];
 			
-			if (minutes == 0) minutes = "00";
+			if (hour < 10) hour = "0" + hour;
+			if (minutes < 10) minutes = "0" + minutes;
 
 			if ((hour+":"+minutes) == text) continue;
 			flag = true;
@@ -44,7 +43,7 @@ function timeOffset() {
 	}
 	if (flag) {
 		var description = document.getElementById("description");
-		description.innerHTML += " Directly below, the local time (of "+Intl.DateTimeFormat().resolvedOptions().timeZone+") based on your machine clock is listed within parentheses in italics.";
+		description.innerHTML += " The local time of "+Intl.DateTimeFormat().resolvedOptions().timeZone+" (based on your machine clock) is given within parentheses.";
 	}
 }
 
