@@ -30,7 +30,7 @@ function countdownTimer() {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown-timer").innerHTML = "Deadline expired";
+    document.getElementById("countdown-timer").innerHTML = "Workshop live!";
   }
 }
 
