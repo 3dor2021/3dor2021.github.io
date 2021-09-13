@@ -113,6 +113,15 @@ footer {
   overflow: hidden;
 }
 
+.yt-video {
+  display: none;
+  float: right;
+}
+
+.yt-link {
+  display: block;
+}
+
 @media print, screen and (min-width: 40em) { /* Medium device */
   .bgimg {
     width: 120%;
@@ -121,6 +130,10 @@ footer {
 
   #banner {
     padding-top: 9rem;
+  }
+
+  .yt-link {
+    display: block;
   }
 }
 
@@ -131,6 +144,16 @@ footer {
   }
   #banner {
     padding-top: 11rem;
+  }
+
+  .yt-video {
+    width: 192;
+    height: 108;
+    display: block;
+  }
+
+  .yt-link {
+    display: none;
   }
 }
 
@@ -145,5 +168,15 @@ footer {
   .trim-bgimg {
     width: 100%;
     max-width: 100%;
+  }
+
+  .yt-video {
+    width: 256;
+    height: 144;
+    display: block;
+  }
+
+  .yt-link {
+    display: none;
   }
 }
